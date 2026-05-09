@@ -178,4 +178,4 @@ QQ 群：1016641691
 
 ## 许可证
 
-MIT License
+AGPL
