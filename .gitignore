@@ -12,6 +12,9 @@ dist
 dist-ssr
 *.local
 
+# Docs
+docs/
+
 # Rust / Tauri build artifacts
 src-tauri/target/
 src-tauri/Cargo.lock
