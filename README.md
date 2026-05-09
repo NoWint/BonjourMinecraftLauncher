@@ -1,6 +1,6 @@
 # Bonjour Minecraft Launcher
 
-一个基于 Electron + React + TypeScript 的第三方 Minecraft 启动器，支持 Windows 和 macOS 平台。
+【该readme系本项目由electron迁移tauri 现仅供参考】编写前一个基于 Electron + React + TypeScript 的第三方 Minecraft 启动器，支持 Windows 和 macOS 平台。
 
 ## 功能特性
 
