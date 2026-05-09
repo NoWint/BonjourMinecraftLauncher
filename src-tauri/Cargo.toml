@@ -1,0 +1,79 @@
+[package]
+name = "bonjour-minecraft-launcher"
+version = "0.0.3"
+description = "Bonjour Minecraft Launcher"
+authors = ["nowint-eric"]
+edition = "2021"
+
+[lib]
+name = "bonjour_minecraft_launcher_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = ["tray-icon", "devtools"] }
+tauri-plugin-shell = "2"
+tauri-plugin-dialog = "2"
+tauri-plugin-fs = "2"
+tauri-plugin-process = "2"
+tauri-plugin-updater = "2"
+tauri-plugin-global-shortcut = "2"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+reqwest = { version = "0.12", features = ["json", "stream", "blocking"] }
+futures-util = "0.3"
+tokio = { version = "1", features = ["full"] }
+sha2 = "0.10"
+sha1 = "0.10"
+md-5 = "0.10"
+zip = "2"
+uuid = { version = "1", features = ["v4"] }
+chrono = { version = "0.4", features = ["serde"] }
+sysinfo = "0.33"
+dirs = "5"
+thiserror = "2"
+flate2 = "1"
+tar = "0.4"
+base64 = "0.22"
+open = "5"
+regex = "1"
+notify = "7"
+parking_lot = "0.12"
+fastnbt = "2"
+image = { version = "0.25", default-features = false, features = ["png"] }
+walkdir = "2"
+lazy_static = "1"
+hex = "0.4"
+rand = "0.9"
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+rusqlite = { version = "0.32", features = ["bundled"] }
+
+[dev-dependencies]
+tempfile = "3"
+assert-json-diff = "2"
+
+[profile.dev]
+opt-level = 0
+debug = 2
+incremental = true
+
+[profile.dev.package."*"]
+opt-level = 2
+
+[profile.release]
+strip = true
+opt-level = 3
+lto = "fat"
+codegen-units = 1
+panic = "abort"
+
+[profile.fast-release]
+inherits = "release"
+strip = false
+opt-level = 2
+lto = "thin"
+codegen-units = 4
+panic = "abort"

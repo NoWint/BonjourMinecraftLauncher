@@ -1,0 +1,99 @@
+{
+  "app": {
+    "name": "Bonjour Minecraft Launcher",
+    "tagline": "Launch your block world elegantly"
+  },
+  "nav": {
+    "home": "Home",
+    "versions": "Versions",
+    "mods": "Mods",
+    "modpacks": "Modpacks",
+    "accounts": "Accounts",
+    "settings": "Settings"
+  },
+  "home": {
+    "welcome": "Welcome back",
+    "selectVersion": "Select Version",
+    "launch": "Launch Game",
+    "launching": "Launching...",
+    "recentVersions": "Recent Versions",
+    "noVersions": "No versions installed yet",
+    "installVersion": "Install Version"
+  },
+  "versions": {
+    "title": "Version Manager",
+    "installed": "Installed",
+    "available": "Available",
+    "install": "Install",
+    "uninstall": "Uninstall",
+    "launch": "Launch",
+    "search": "Search versions...",
+    "release": "Release",
+    "snapshot": "Snapshot",
+    "old": "Old",
+    "modLoader": "Mod Loader",
+    "vanilla": "Vanilla",
+    "forge": "Forge",
+    "fabric": "Fabric",
+    "quilt": "Quilt"
+  },
+  "mods": {
+    "title": "Mod Manager",
+    "search": "Search mods...",
+    "install": "Install",
+    "uninstall": "Uninstall",
+    "enabled": "Enabled",
+    "disabled": "Disabled",
+    "version": "Version",
+    "author": "Author",
+    "downloads": "Downloads",
+    "category": "Category"
+  },
+  "accounts": {
+    "title": "Account Manager",
+    "addAccount": "Add Account",
+    "removeAccount": "Remove Account",
+    "setDefault": "Set Default",
+    "default": "Default",
+    "offline": "Offline",
+    "microsoft": "Microsoft",
+    "username": "Username",
+    "uuid": "UUID"
+  },
+  "settings": {
+    "title": "Settings",
+    "general": "General",
+    "game": "Game",
+    "appearance": "Appearance",
+    "advanced": "Advanced",
+    "language": "Language",
+    "theme": "Theme",
+    "dark": "Dark",
+    "light": "Light",
+    "system": "System",
+    "gamePath": "Game Path",
+    "javaPath": "Java Path",
+    "memory": "Memory",
+    "resolution": "Resolution",
+    "fullscreen": "Fullscreen",
+    "sound": "Sound",
+    "shortcuts": "Shortcuts",
+    "reset": "Reset"
+  },
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "done": "Done",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "warning": "Warning",
+    "info": "Info"
+  }
+}
