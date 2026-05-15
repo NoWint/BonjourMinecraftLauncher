@@ -1,0 +1,234 @@
+<h2>📋 最终设计决策 · Final Design Decisions</h2>
+<p class="subtitle">以下所有决策已锁定。默认主题 = 卡带未来主义，可切换至侘寂工坊。</p>
+
+<div class="section">
+  <h3>🎨 主题一：卡带未来主义 · Cassette Futurism（默认）</h3>
+</div>
+
+<div class="cards">
+  <div class="card">
+    <div class="card-image" style="background:#0D0E0A;padding:20px;min-height:80px;display:flex;flex-direction:column;justify-content:center;">
+      <div style="display:flex;gap:10px;margin-bottom:12px;">
+        <div style="width:60px;height:60px;background:#0D0E0A;border:2px solid #3A4A1A;border-radius:2px;"></div>
+        <div style="width:60px;height:60px;background:#0A1A0A;border:2px solid #3A4A1A;border-radius:2px;"></div>
+        <div style="width:60px;height:60px;background:#0D0E0A;border:2px solid #E8C547;border-radius:2px;box-shadow:inset 0 0 15px rgba(232,197,71,.1);"></div>
+      </div>
+      <div style="color:#E8C547;font-size:14px;font-family:monospace;">#0D0E0A 主底色</div>
+      <div style="color:#8B9B3A;font-size:10px;font-family:monospace;">纯黑 CRT · 拒绝绿色终端刻板印象</div>
+    </div>
+    <div class="card-body">
+      <h3>底色方案：纯黑 CRT</h3>
+      <p><strong>#0D0E0A</strong> — 乍看是黑，细看有极微弱的暖绿底。不是 DOS 绿也不是蓝屏，更接近真实 CRT 关机后的磷光余晖。</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-image" style="background:#0D0E0A;padding:20px;min-height:80px;">
+      <div style="display:flex;flex-direction:column;gap:6px;">
+        <div style="color:#E8C547;font-size:18px;font-family:monospace;text-shadow:0 0 10px rgba(232,197,71,.5);">▶ AMBER #E8C547</div>
+        <div style="color:#8B9B3A;font-size:12px;font-family:monospace;">Sub text #8B9B3A</div>
+        <div style="color:#5A7A3A;font-size:10px;font-family:monospace;">Dim text #5A7A3A</div>
+        <div style="display:flex;gap:4px;margin-top:4px;">
+          <div style="width:20px;height:20px;background:#E85147;border-radius:1px;" title="Error"></div>
+          <div style="width:20px;height:20px;background:#4A8B3A;border-radius:1px;" title="Success"></div>
+          <div style="width:20px;height:20px;background:#3A5AE8;border-radius:1px;" title="Info"></div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>配色方案：琥珀系</h3>
+      <p>主色 = 琥珀黄 #E8C547，次色 = 苔绿 #8B9B3A。错误用 CRT 红 #E85147，成功用终端绿 #4A8B3A。全部自带 text-shadow 辉光。</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-image" style="background:#0D0E0A;padding:20px;min-height:80px;font-family:monospace;">
+      <div style="color:#E8C547;font-size:13px;">JetBrains Mono</div>
+      <div style="color:#8B9B3A;font-size:10px;margin-top:4px;">ABCDEFGHIJKLMNOP<br>abcdefghijklmnop<br>0123456789 &gt; _ [] {}</div>
+    </div>
+    <div class="card-body">
+      <h3>字体：JetBrains Mono</h3>
+      <p>免费开源、连字优美、可读性在等宽字体中一流。终端感十足但不牺牲长时间阅读体验。</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-image" style="background:#0D0E0A;padding:20px;min-height:80px;">
+      <div style="display:flex;gap:4px;flex-wrap:wrap;">
+        <div style="padding:4px 8px;border:1px solid #3A4A1A;font-family:monospace;font-size:8px;color:#8B9B3A;">[HOME]</div>
+        <div style="padding:4px 8px;border:1px solid #3A4A1A;font-family:monospace;font-size:8px;color:#8B9B3A;">[VERS]</div>
+        <div style="padding:4px 8px;border:1px solid #E8C547;font-family:monospace;font-size:8px;color:#E8C547;box-shadow:0 0 6px rgba(232,197,71,.3);">[MODS]</div>
+        <div style="padding:4px 8px;border:1px solid #3A4A1A;font-family:monospace;font-size:8px;color:#8B9B3A;">[WRLD]</div>
+        <div style="padding:4px 8px;border:1px solid #3A4A1A;font-family:monospace;font-size:8px;color:#8B9B3A;">[SET]</div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>导航：面板按键式底部栏</h3>
+      <p>括号包裹的 4 字符标签，活跃项带琥珀边框和辉光。模拟老式设备物理面板按钮矩阵。</p>
+    </div>
+  </div>
+</div>
+
+<div class="section" style="margin-top:32px;">
+  <h3>🍵 主题二：侘寂工坊 · Wabi-Sabi Workshop</h3>
+</div>
+
+<div class="cards">
+  <div class="card">
+    <div class="card-image" style="background:linear-gradient(135deg,#F5F0E8,#EDE4D3);padding:20px;min-height:80px;display:flex;align-items:flex-end;gap:10px;">
+      <div style="width:50px;height:50px;background:#F5F0E8;border:1px solid #D4C4B0;box-shadow:2px 2px 0 rgba(160,140,110,.15);"></div>
+      <div style="width:50px;height:50px;background:#1A1410;border:1px solid #3A2A1A;box-shadow:2px 2px 0 rgba(0,0,0,.3);display:flex;align-items:center;justify-content:center;color:#D4B060;font-size:8px;">暗色</div>
+      <span style="font-size:9px;color:#8B7355;">浅色 ↔ 暗色</span>
+    </div>
+    <div class="card-body">
+      <h3>底色方案：宣纸白 + 墨底暗色</h3>
+      <p><strong>浅色</strong> = #F5F0E8（和纸白），<strong>暗色</strong> = #1A1410（炭墨底 + 烫金文字 #D4B060）。深夜场景自动/手动切换至暗色版。</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-image" style="background:#F5F0E8;padding:20px;min-height:80px;font-family:serif;">
+      <div style="color:#4A3728;font-size:18px;">#4A3728 墨色</div>
+      <div style="color:#8B7355;font-size:12px;margin-top:4px;">#8B7355 淡墨</div>
+      <div style="color:#A08C6E;font-size:10px;margin-top:2px;">#A08C6E 薄墨</div>
+      <div style="display:flex;gap:4px;margin-top:6px;">
+        <div style="width:16px;height:16px;background:#C0503A;border-radius:50%;" title="朱红"></div>
+        <div style="width:16px;height:16px;background:#4A6741;border-radius:50%;" title="青绿"></div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>配色：墨分五色</h3>
+      <p>主文字 = 濃墨 #4A3728，辅文字 = 淡墨 #8B7355，强调色使用朱红 #C0503A 和青绿 #4A6741（源自日本传统色）。</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-image" style="background:#F5F0E8;padding:20px;min-height:80px;">
+      <div style="font-family:'Noto Serif JP',serif;color:#4A3728;font-size:16px;font-weight:bold;">标题 = 明朝体</div>
+      <div style="font-family:-apple-system,sans-serif;color:#6B5B4B;font-size:11px;margin-top:6px;">UI文本 = 系统无衬线</div>
+      <div style="font-family:-apple-system,sans-serif;color:#8B7355;font-size:9px;margin-top:4px;">数据/代码 = 等宽字</div>
+    </div>
+    <div class="card-body">
+      <h3>字体：明朝体 + 系统无衬线</h3>
+      <p>标题/品牌用 Noto Serif JP（明朝体），正文 UI 用系统无衬线确保可读性，数据/代码用 JetBrains Mono 保持一致。</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-image" style="background:#F5F0E8;padding:20px;min-height:80px;">
+      <div style="display:flex;gap:0;border-bottom:1px solid #D4C4B0;">
+        <div style="flex:1;text-align:center;padding:6px 0;font-size:9px;color:#8B7355;">ホーム</div>
+        <div style="flex:1;text-align:center;padding:6px 0;font-size:9px;color:#8B7355;">バージョン</div>
+        <div style="flex:1;text-align:center;padding:6px 0;font-size:9px;color:#4A3728;border-bottom:2px solid #4A3728;font-weight:bold;">MOD</div>
+        <div style="flex:1;text-align:center;padding:6px 0;font-size:9px;color:#8B7355;">ワールド</div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>导航：日文菜单底部栏</h3>
+      <p>活跃项 = 浓墨色 + 底部 2px 下划线。非活跃项 = 淡墨色。极致克制，用厚度而非颜色区分状态。</p>
+    </div>
+  </div>
+</div>
+
+<div class="section" style="margin-top:32px;">
+  <h3>🔀 主题切换：仪式感过渡（1.2s）</h3>
+  <p style="color:var(--text-secondary);font-size:13px;line-height:1.8;">
+    <strong>切换动画分三个阶段：</strong><br>
+    ① <strong>CRT 关机（0.4s）</strong>：屏幕正中收缩为一条亮线 → 熄灭。致敬老电视关机。<br>
+    ② <strong>中间态（0.3s）</strong>：全屏黑，中央浮现切换控件的物理隐喻——卡带弹出/插入。<br>
+    ③ <strong>新风格展开（0.5s）</strong>：如果是侘寂→卡带 = CRT 开机扫描线从上往下扫过；卡带→侘寂 = 纸门从中间向两侧推开。<br><br>
+    <strong>切换入口：</strong>设置面板中的主题卡片 + 快捷键 Ctrl+T。不放在显眼位置，避免频繁切换破坏沉浸感。
+  </p>
+</div>
+
+<div class="section" style="margin-top:32px;">
+  <h3>📐 通用设计原则（两个主题共有）</h3>
+  <table style="width:100%;border-collapse:collapse;font-size:13px;">
+    <thead>
+      <tr style="border-bottom:1px solid var(--border-color);">
+        <th style="text-align:left;padding:8px;width:160px;">原则</th>
+        <th style="text-align:left;padding:8px;">决策</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="border-bottom:1px solid var(--border-color);">
+        <td style="padding:8px;font-weight:bold;">布局架构</td>
+        <td style="padding:8px;">统一使用底部导航 + 页面切换，两个主题共享相同的组件结构和数据流，只换样式层</td>
+      </tr>
+      <tr style="border-bottom:1px solid var(--border-color);">
+        <td style="padding:8px;font-weight:bold;">动画语言</td>
+        <td style="padding:8px;">抛弃 framer-motion 的 spring 弹性动画，改用线性/step-based 过渡。卡带 = 逐行刷新（类似终端输出），侘寂 = 微妙 fade</td>
+      </tr>
+      <tr style="border-bottom:1px solid var(--border-color);">
+        <td style="padding:8px;font-weight:bold;">毛玻璃</td>
+        <td style="padding:8px;"><strong>全部移除。</strong> AI 味的罪魁祸首。卡带用纯色面板 + 边框，侘寂用纸片阴影</td>
+      </tr>
+      <tr style="border-bottom:1px solid var(--border-color);">
+        <td style="padding:8px;font-weight:bold;">圆角</td>
+        <td style="padding:8px;">卡带 = 2px（几乎直角），侘寂 = 1px（刻意不规则）。告别 14px/20px 大圆角</td>
+      </tr>
+      <tr style="border-bottom:1px solid var(--border-color);">
+        <td style="padding:8px;font-weight:bold;">图标</td>
+        <td style="padding:8px;">卡带 = 自定义像素图标（16×16 Minecraft 风格），侘寂 = 细线 SVG 图标 + 日本傳統色</td>
+      </tr>
+      <tr style="border-bottom:1px solid var(--border-color);">
+        <td style="padding:8px;font-weight:bold;">动态背景</td>
+        <td style="padding:8px;">移除粒子/aurora/waves。卡带 = 静态 CRT 扫描线叠加层，侘寂 = 和纸纤维纹理</td>
+      </tr>
+      <tr style="border-bottom:1px solid var(--border-color);">
+        <td style="padding:8px;font-weight:bold;">排版网格</td>
+        <td style="padding:8px;">卡带 = 等宽 8px 基准网格（monospace 天然对齐），侘寂 = 不对称 5/7 分栏（黄金比附近）</td>
+      </tr>
+      <tr>
+        <td style="padding:8px;font-weight:bold;">原有主题预设</td>
+        <td style="padding:8px;">12 套主题预设系统保留但不作为主要卖点，降级为设置中的辅助选项</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="section" style="margin-top:28px;">
+  <h3>✅ 决策清单速查</h3>
+  <table style="width:100%;border-collapse:collapse;font-size:13px;">
+    <tr style="border-bottom:1px solid var(--border-color);">
+      <td style="padding:8px;font-weight:bold;">默认主题</td>
+      <td style="padding:8px;color:#E8C547;">📼 卡带未来主义</td>
+    </tr>
+    <tr style="border-bottom:1px solid var(--border-color);">
+      <td style="padding:8px;font-weight:bold;">切换主题</td>
+      <td style="padding:8px;">🍵 侘寂工坊</td>
+    </tr>
+    <tr style="border-bottom:1px solid var(--border-color);">
+      <td style="padding:8px;font-weight:bold;">切换方式</td>
+      <td style="padding:8px;">仪式感过渡 1.2s（CRT关机 → 中间态 → 纸门/扫描线展开）</td>
+    </tr>
+    <tr style="border-bottom:1px solid var(--border-color);">
+      <td style="padding:8px;font-weight:bold;">卡带底色</td>
+      <td style="padding:8px;"><code style="background:#0D0E0A;color:#E8C547;padding:2px 6px;border-radius:1px;">#0D0E0A</code> 纯黑 CRT</td>
+    </tr>
+    <tr style="border-bottom:1px solid var(--border-color);">
+      <td style="padding:8px;font-weight:bold;">卡带主色</td>
+      <td style="padding:8px;"><code style="background:#E8C547;color:#0D0E0A;padding:2px 6px;border-radius:1px;">#E8C547</code> 琥珀黄 + 辉光</td>
+    </tr>
+    <tr style="border-bottom:1px solid var(--border-color);">
+      <td style="padding:8px;font-weight:bold;">侘寂浅色</td>
+      <td style="padding:8px;"><code style="background:#F5F0E8;color:#4A3728;padding:2px 6px;border:1px solid #D4C4B0;">#F5F0E8</code> 和纸白</td>
+    </tr>
+    <tr style="border-bottom:1px solid var(--border-color);">
+      <td style="padding:8px;font-weight:bold;">侘寂暗色</td>
+      <td style="padding:8px;"><code style="background:#1A1410;color:#D4B060;padding:2px 6px;border-radius:1px;">#1A1410</code> 炭墨底 + 烫金 #D4B060</td>
+    </tr>
+    <tr style="border-bottom:1px solid var(--border-color);">
+      <td style="padding:8px;font-weight:bold;">侘寂强调</td>
+      <td style="padding:8px;">朱红 #C0503A / 青绿 #4A6741</td>
+    </tr>
+    <tr style="border-bottom:1px solid var(--border-color);">
+      <td style="padding:8px;font-weight:bold;">字体</td>
+      <td style="padding:8px;">卡带 = JetBrains Mono | 侘寂 = Noto Serif JP + 系统无衬线</td>
+    </tr>
+    <tr>
+      <td style="padding:8px;font-weight:bold;">动画</td>
+      <td style="padding:8px;">移除 spring 弹性 → 线性/step 过渡</td>
+    </tr>
+  </table>
+</div>

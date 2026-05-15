@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="cassette">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bonjour Minecraft</title>
+    <script>
+      (function() {
+        var t = localStorage.getItem('bonjour-theme-id');
+        var dt = t === 'wabi-sabi' ? 'wabi-sabi' : 'cassette';
+        document.documentElement.setAttribute('data-theme', dt);
+        if (dt === 'cassette') document.documentElement.classList.add('dark');
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
