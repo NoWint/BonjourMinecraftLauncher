@@ -1,0 +1,99 @@
+{
+  "app": {
+    "name": "Bonjour Minecraft Launcher",
+    "tagline": "エレガントにブロックの世界を起動"
+  },
+  "nav": {
+    "home": "ホーム",
+    "versions": "バージョン",
+    "mods": "MOD",
+    "modpacks": "MODパック",
+    "accounts": "アカウント",
+    "settings": "設定"
+  },
+  "home": {
+    "welcome": "おかえりなさい",
+    "selectVersion": "バージョンを選択",
+    "launch": "ゲームを起動",
+    "launching": "起動中...",
+    "recentVersions": "最近のバージョン",
+    "noVersions": "まだバージョンがインストールされていません",
+    "installVersion": "バージョンをインストール"
+  },
+  "versions": {
+    "title": "バージョン管理",
+    "installed": "インストール済み",
+    "available": "利用可能",
+    "install": "インストール",
+    "uninstall": "アンインストール",
+    "launch": "起動",
+    "search": "バージョンを検索...",
+    "release": "リリース",
+    "snapshot": "スナップショット",
+    "old": "旧版",
+    "modLoader": "MODローダー",
+    "vanilla": "バニラ",
+    "forge": "Forge",
+    "fabric": "Fabric",
+    "quilt": "Quilt"
+  },
+  "mods": {
+    "title": "MOD管理",
+    "search": "MODを検索...",
+    "install": "インストール",
+    "uninstall": "アンインストール",
+    "enabled": "有効",
+    "disabled": "無効",
+    "version": "バージョン",
+    "author": "作者",
+    "downloads": "ダウンロード数",
+    "category": "カテゴリ"
+  },
+  "accounts": {
+    "title": "アカウント管理",
+    "addAccount": "アカウントを追加",
+    "removeAccount": "アカウントを削除",
+    "setDefault": "デフォルトに設定",
+    "default": "デフォルト",
+    "offline": "オフライン",
+    "microsoft": "Microsoft",
+    "username": "ユーザー名",
+    "uuid": "UUID"
+  },
+  "settings": {
+    "title": "設定",
+    "general": "一般",
+    "game": "ゲーム",
+    "appearance": "外観",
+    "advanced": "詳細",
+    "language": "言語",
+    "theme": "テーマ",
+    "dark": "ダーク",
+    "light": "ライト",
+    "system": "システム",
+    "gamePath": "ゲームパス",
+    "javaPath": "Javaパス",
+    "memory": "メモリ",
+    "resolution": "解像度",
+    "fullscreen": "フルスクリーン",
+    "sound": "サウンド",
+    "shortcuts": "ショートカット",
+    "reset": "リセット"
+  },
+  "common": {
+    "save": "保存",
+    "cancel": "キャンセル",
+    "confirm": "確認",
+    "delete": "削除",
+    "edit": "編集",
+    "close": "閉じる",
+    "back": "戻る",
+    "next": "次へ",
+    "done": "完了",
+    "loading": "読み込み中...",
+    "error": "エラー",
+    "success": "成功",
+    "warning": "警告",
+    "info": "情報"
+  }
+}

@@ -1,0 +1,140 @@
+<h2>🎨 四个设计方向</h2>
+<p class="subtitle">摆脱 AI 味，找到属于你的独特风格。点击卡片选择你感兴趣的方向。</p>
+
+<div class="section">
+  <p style="color: var(--text-secondary); font-size: 14px; margin-bottom: 16px;">
+    当前问题：毛玻璃泛滥 + 千篇一律的渐变 + 过度弹性动画 + 模板化的暗色模式 = <strong>AI 味</strong><br>
+    下面四个方向各有不同的解法，看看哪个戳中你。
+  </p>
+</div>
+
+<div class="options" data-multiselect>
+  <div class="option" data-choice="block" onclick="toggleSelect(this)">
+    <div class="letter">A</div>
+    <div class="content">
+      <h3>🧱 方碑主义 · Brutalist Block</h3>
+      <p>直接致敬 Minecraft 本身的视觉语言——方块、矿石、像素纹理。不是"像游戏"，而是"就是游戏的一部分"。</p>
+      <div style="display:flex;gap:8px;margin-top:12px;flex-wrap:wrap;">
+        <div style="width:48px;height:48px;background:linear-gradient(135deg,#8B7355,#6B5B3D);border:2px solid #4A3728;image-rendering:pixelated;box-shadow:inset 2px 2px 0 rgba(255,255,255,.15),inset -2px -2px 0 rgba(0,0,0,.3);"></div>
+        <div style="width:48px;height:48px;background:linear-gradient(135deg,#5C5C5C,#3C3C3C);border:2px solid #2A2A2A;image-rendering:pixelated;box-shadow:inset 2px 2px 0 rgba(255,255,255,.15),inset -2px -2px 0 rgba(0,0,0,.3);"></div>
+        <div style="width:48px;height:48px;background:linear-gradient(135deg,#7CB342,#558B2F);border:2px solid #33691E;image-rendering:pixelated;box-shadow:inset 2px 2px 0 rgba(255,255,255,.25),inset -2px -2px 0 rgba(0,0,0,.3);"></div>
+        <div style="width:48px;height:48px;background:linear-gradient(135deg,#5D4037,#3E2723);border:2px solid #1B0E00;image-rendering:pixelated;box-shadow:inset 2px 2px 0 rgba(255,255,255,.1),inset -2px -2px 0 rgba(0,0,0,.3);"></div>
+      </div>
+      <div class="pros-cons" style="margin-top:12px;">
+        <div class="pros"><h4>Pros</h4><ul><li>与 Minecraft 天然契合，辨识度极高</li><li>像素纹理带来温暖的手工感</li><li>市面唯一，竞品全是扁平化</li></ul></div>
+        <div class="cons"><h4>Cons</h4><ul><li>需大量纹理素材，开发成本高</li><li>过于"游戏化"可能显得不够专业</li></ul></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="option" data-choice="swiss" onclick="toggleSelect(this)">
+    <div class="letter">B</div>
+    <div class="content">
+      <h3>📐 瑞士现代 · Swiss Modernist</h3>
+      <p>文字即设计。大面积留白、精准的网格系统、克制到极致的配色。不靠装饰取胜，靠比例和节奏。</p>
+      <div style="font-family:'Helvetica Neue',sans-serif;margin-top:12px;padding:12px;background:#F5F5F5;border-radius:2px;">
+        <div style="font-size:32px;font-weight:900;letter-spacing:-1px;color:#1A1A1A;line-height:1;">MINECRAFT</div>
+        <div style="font-size:11px;font-weight:400;letter-spacing:4px;color:#999;text-transform:uppercase;margin-top:4px;">Bonjour Launcher</div>
+        <div style="width:40px;height:2px;background:#1A1A1A;margin:16px 0;"></div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:4px;">
+          <div style="height:4px;background:#1A1A1A;"></div>
+          <div style="height:4px;background:#DDD;"></div>
+          <div style="height:4px;background:#DDD;"></div>
+          <div style="height:4px;background:#1A1A1A;"></div>
+        </div>
+      </div>
+      <div class="pros-cons" style="margin-top:12px;">
+        <div class="pros"><h4>Pros</h4><ul><li>永不过时，Swiss Design 百年经典</li><li>信息层级清晰，功能型 UI 最优选</li><li>开发成本低，CSS 即可实现</li></ul></div>
+        <div class="cons"><h4>Cons</h4><ul><li>可能过于冷淡/严肃</li><li>与游戏文化的"玩味"调性有距离</li></ul></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="option" data-choice="zen" onclick="toggleSelect(this)">
+    <div class="letter">C</div>
+    <div class="content">
+      <h3>🍵 侘寂工坊 · Wabi-Sabi Workshop</h3>
+      <p>纸、木、墨的触感。暖色调代替暗黑模式，不对称排版代替完美居中对齐。每个界面都像手作工坊的一角。</p>
+      <div style="margin-top:12px;padding:16px;background:linear-gradient(135deg,#F5F0E8,#EDE4D3);border-radius:1px;position:relative;overflow:hidden;">
+        <div style="position:absolute;top:0;right:0;width:60px;height:60px;background:radial-gradient(circle at center,transparent 60%,rgba(139,69,19,.08) 100%);"></div>
+        <div style="font-family:serif;font-size:18px;color:#4A3728;letter-spacing:2px;">ボンジュール</div>
+        <div style="font-size:10px;color:#8B7355;margin-top:8px;letter-spacing:1px;">—— Minecraft Launcher ——</div>
+        <div style="margin-top:12px;display:flex;gap:8px;">
+          <div style="flex:1;height:2px;background:#8B7355;opacity:.3;"></div>
+          <div style="width:4px;height:4px;border-radius:50%;background:#8B7355;"></div>
+          <div style="flex:1;height:2px;background:#8B7355;opacity:.3;"></div>
+        </div>
+      </div>
+      <div class="pros-cons" style="margin-top:12px;">
+        <div class="pros"><h4>Pros</h4><ul><li>极度独特，没有任何启动器这样做过</li><li>温暖亲切，长时间使用不疲劳</li><li>可融入匠人/手作叙事，增强品牌故事</li></ul></div>
+        <div class="cons"><h4>Cons</h4><ul><li>可能偏离玩家对"游戏工具"的预期</li><li>浅色系在深夜游戏场景中需要考虑暗色版本</li></ul></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="option" data-choice="retro" onclick="toggleSelect(this)">
+    <div class="letter">D</div>
+    <div class="content">
+      <h3>📼 卡带未来主义 · Cassette Futurism</h3>
+      <p>80-90年代电子产品美学。琥珀色 CRT 屏幕、物理旋钮/按钮隐喻、等宽字体终端风格。复古但绝不陈旧。</p>
+      <div style="margin-top:12px;padding:14px;background:#1A1A0A;border:2px solid #3A3A1A;font-family:'Courier New',monospace;">
+        <div style="color:#E8C547;font-size:14px;text-shadow:0 0 8px rgba(232,197,71,.5);">▶ BONJOUR.SYS v2.0</div>
+        <div style="color:#8B8B3A;font-size:10px;margin-top:6px;">[==========================] 100%</div>
+        <div style="display:flex;gap:8px;margin-top:10px;">
+          <div style="width:36px;height:12px;border:1px solid #5A5A2A;border-radius:2px;background:#2A2A1A;"></div>
+          <div style="width:36px;height:12px;border:1px solid #5A5A2A;border-radius:2px;background:#3A3A1A;"></div>
+          <div style="width:36px;height:12px;border:1px solid #E8C547;border-radius:2px;background:#4A3A0A;"></div>
+        </div>
+      </div>
+      <div class="pros-cons" style="margin-top:12px;">
+        <div class="pros"><h4>Pros</h4><ul><li>复古未来风近年持续流行（Alien, Severance 等影视推动）</li><li>游戏文化圈接受度高</li><li>终端/CLI 元素天然适合技术型启动器</li></ul></div>
+        <div class="cons"><h4>Cons</h4><ul><li>琥珀色屏幕长时间可能刺眼</li><li>过度设计可能降低可用性</li></ul></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section" style="margin-top:24px;">
+  <h3>🤔 对比速览</h3>
+  <table style="width:100%;border-collapse:collapse;font-size:13px;">
+    <thead>
+      <tr style="border-bottom:1px solid var(--border-color);">
+        <th style="text-align:left;padding:8px;">维度</th>
+        <th style="text-align:center;padding:8px;">A 方碑主义</th>
+        <th style="text-align:center;padding:8px;">B 瑞士现代</th>
+        <th style="text-align:center;padding:8px;">C 侘寂工坊</th>
+        <th style="text-align:center;padding:8px;">D 卡带未来</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="border-bottom:1px solid var(--border-color);">
+        <td style="padding:8px;">独特性</td>
+        <td style="text-align:center;padding:8px;">⭐⭐⭐⭐⭐</td>
+        <td style="text-align:center;padding:8px;">⭐⭐⭐</td>
+        <td style="text-align:center;padding:8px;">⭐⭐⭐⭐⭐</td>
+        <td style="text-align:center;padding:8px;">⭐⭐⭐⭐</td>
+      </tr>
+      <tr style="border-bottom:1px solid var(--border-color);">
+        <td style="padding:8px;">开发成本</td>
+        <td style="text-align:center;padding:8px;">高</td>
+        <td style="text-align:center;padding:8px;">低</td>
+        <td style="text-align:center;padding:8px;">中</td>
+        <td style="text-align:center;padding:8px;">中</td>
+      </tr>
+      <tr style="border-bottom:1px solid var(--border-color);">
+        <td style="padding:8px;">耐久性</td>
+        <td style="text-align:center;padding:8px;">⭐ 趋势风险高</td>
+        <td style="text-align:center;padding:8px;">⭐⭐⭐⭐⭐ 永恒</td>
+        <td style="text-align:center;padding:8px;">⭐⭐⭐⭐</td>
+        <td style="text-align:center;padding:8px;">⭐⭐⭐ 潮流周期</td>
+      </tr>
+      <tr>
+        <td style="padding:8px;">MC 契合度</td>
+        <td style="text-align:center;padding:8px;">⭐⭐⭐⭐⭐</td>
+        <td style="text-align:center;padding:8px;">⭐⭐</td>
+        <td style="text-align:center;padding:8px;">⭐⭐⭐</td>
+        <td style="text-align:center;padding:8px;">⭐⭐⭐⭐</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
