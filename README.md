@@ -1,8 +1,13 @@
 # Bonjour Minecraft Launcher
 
+
+
+注意！！
+Bonjour0.0.4已重构为BonNext 该项目已废弃
+
 第三方 Minecraft Java 版启动器，基于 Tauri 2 + Rust + React 构建，支持 Windows、macOS、Linux 三平台。
 
-项目当前处于 **Alpha 阶段（v0.0.3）**，功能尚在持续开发中。
+项目当前处于 **Alpha 阶段（v0.0.3）**，功能尚在持续开发中。（vibecoding十山致歉）
 
 ## 功能概述
 
